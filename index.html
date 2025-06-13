@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ResumeAI</title>
+    
+</head>
+<body>
+    <div class="loader loader-hidden"></div>
+
+    <div class="container">
+
+        <div class="header">
+            <h1 class="titulo">ResumeAI</h1>
+            <h4 class="texto">Welcome to <b>ResumeAI</b>!😃</h4>
+            <h4 class="texto">Paste a YouTube link and get a clear, quick summary of the video in seconds!</h4>
+
+           
+            <div class="conteudo1">
+                <input type="url" class="link" placeholder="Insert your URL here...">
+                <div><button class="comecar">Start AI Analysis</button></div>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <div class="input">
+                <h3 class="texto2">Word cloud</h4>
+                    
+                <h2 class="title-geral hidden">Debate geral</h2>
+                <img class="wc-geral hidden" src="http://localhost:3333/wordcloud/_wordcloud.png" alt="geral">
+                
+                <h2 class="title-adriana hidden">Adriana</h2>
+                <img class="wc-adriana hidden" src="http://localhost:3333/wordcloud/_adriana.png" alt="adriana">
+                
+                <h2 class="title-lodovico hidden">Lodovico</h2>
+                <img class="wc-lodovico hidden" src="http://localhost:3333/wordcloud/_lodovico.png" alt="lodovico">
+            </div>
+  
+   
+        <div class="input">
+
+            <h3 class="texto2">AI Analysis</h4>
+            
+            <h2 class="header-adriana hidden" style="margin-top: 10px;">Pontos críticos da Adriana</h2>
+            <p class="p-adriana hidden"></p>
+
+            <h2 class="header-lodovico hidden" style="margin-top: 20px;">Pontos críticos do Lodovico</h2>
+            <p class="p-lodovico hidden"></p>
+    </div>
+
+        </div>
+    </div>
+
+    <div class="imagem">
+        <img class="logo"  src="img/geminilogo.png" alt="gemini">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
