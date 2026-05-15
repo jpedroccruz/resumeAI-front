@@ -12,20 +12,11 @@ body {
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: auto;
   background: white;
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-.conteudo1 {
-  margin-top: 10px;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .titulo {
@@ -36,8 +27,6 @@ body {
 .texto {
   color: #707070;
   font-weight: normal;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 .comecar {
@@ -85,6 +74,12 @@ body {
   color: white;
 }
 
+.mini-header {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0 12px 0;
+}
+
 .quadrado {
   width: 1100px;
   height: 413px;
@@ -100,7 +95,7 @@ body {
   font-size: medium;
 }
 
-.conteudo {
+main {
   padding: 40px;
 }
 
@@ -115,9 +110,9 @@ body {
   margin-top: 10px;
 }
 
-.imagem {
+footer {
   text-align: center;
-  margin: auto;
+  padding-bottom: 12px;
 }
 
 .logo {
@@ -159,6 +154,7 @@ body {
   from {
     transform: rotate(0turn);
   }
+
   to {
     transform: rotate(1turn);
   }
